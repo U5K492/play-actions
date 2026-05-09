@@ -7,7 +7,7 @@ on:
         default: test
         required: false
         description: Environment name
-job:
+jobs:
   printf:
     runs-on: ubuntu-latest
     environment: ${{ inputs.environment-name }}
